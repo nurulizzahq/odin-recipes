@@ -1,0 +1,78 @@
+/* Global Styles */
+body {
+  background-color: #faf7f2;
+  color: #333;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Ensure the page covers the full viewport to avoid gaps */
+html, body {
+  height: 100%;
+}
+
+/* Full-width header used on each page */
+header {
+  width: 100%;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  color: #6b3e26;
+  background-color: #f8e8d8;
+  padding: 12px 20px;
+  margin: 0;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #d7b89a;
+}
+
+/* Links */
+a {
+  color: #b85c38;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  background-color: #f2d5c4;
+  color: #3e2723;
+}
+
+/* Layout container for centered, proportional content */
+.container {
+  max-width: 900px;
+  margin: 0.6rem auto;
+  padding: 0 1rem;
+}
+
+/* Responsive images inside content */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
+/* Content sections spacing */
+main h2, main h3 {
+  color: #5a3a2a;
+}
+
+main h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  text-align: center;
+} 
+
+main p, main ul, main ol {
+  max-width: 80ch;
+  margin: 0.5rem auto 1rem auto;
+}
